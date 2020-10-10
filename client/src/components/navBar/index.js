@@ -9,7 +9,7 @@ const NavBar = props => (
   <div id="navbarNav">
     <ul className="navbar-nav">
       <li className="nav-item active">
-        <Link className="nav-link users" to="/">Users <span className="sr-only">(current)</span></Link>
+        {/* <Link className="nav-link users" to="/">Users <span className="sr-only">(current)</span></Link> */}
       </li>
      
       

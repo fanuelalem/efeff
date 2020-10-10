@@ -9,7 +9,7 @@ const ListItems = props => (
   <ul className="list-group"> 
  {props.items.map((item)=>(
 <li className="list-group-item"key={item.id}>
-<Link className="go-to-user"to={`/users/${item.id}`}>
+<Link className="go-to-user"to={`users/${item.id}`}>
   <button className="btn btn-success mybtn">
   <strong> name : </strong> {item.name} <br/> <strong> Sith / Jedi: </strong> {item.sith? "Sith": "Jedi"}
      </button>
